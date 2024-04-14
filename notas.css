@@ -1,0 +1,72 @@
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .logo{
+        display: flex;
+        color: #464646;
+        font-size: 16px;
+    gap: 8px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #464646;
+        font-size: 16px;
+        margin-right: 16px; /* Agregar margen derecho de 32px */
+    
+    }
+    
+    
+    
+    .foto_perfil{
+        height: 368px;
+        border-radius: 50%;
+    
+    }
+    
+    .hobbies,
+    .skills{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinea los elementos verticalmente al centro */
+        text-align: center; /* Centra el texto horizontalmente */
+    }
+    .box img{
+        height: 50px;
+    }
+
+
+
+
+    .enlaces_info a {
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 30%;
+        border-color: #464646;
+        padding: 8px;
+        /* Agregar espacio interno de 5px */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        /* Sombrado más fuerte y amplio */
+
+
+    }
+
+    .enlaces_info img {
+        display: none;
+
+    }
+    

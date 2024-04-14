@@ -1,0 +1,439 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.menu_navegable {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1136px;
+
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+}
+
+.enlaces_menu {
+    display: flex;
+}
+
+.enlaces_menu a {
+    text-decoration: none;
+    color: #464646;
+    margin-right: 32px;
+}
+
+.container_uno {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1136px;
+    gap: 10%;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titulo p {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.presentacion {
+    font-size: 22px;
+    color: #464646;
+
+
+}
+
+.img_perfil img {
+    height: 368px;
+    border-radius: 50%;
+    /* Aplicado directamente a la imagen */
+}
+
+.enlaces_info {
+    display: flex;
+    align-items: center;
+
+}
+
+.enlaces_info a {
+
+    text-decoration: none;
+    color: #464646;
+    margin-left: 32px;
+}
+
+.enlaces_info a:first-child {
+    margin-left: 0;
+    /* Elimina el margen del primer elemento */
+}
+
+.container_dos {
+    display: flex;
+    background-color: #EAF2FD;
+    justify-content: center;
+
+}
+
+.sobre_mi {
+    max-width: 1136px;
+    color: #464646;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container_tres {
+    margin-top: 30px;
+
+}
+
+.skills,
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    max-width: 1120px;
+
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Sombrado más fuerte y amplio */
+    width: 100px;
+    height: 100px;
+}
+
+.skills img,
+.hobbies img {
+    width: 50px;
+}
+
+
+
+.hobbies {
+    display: flex;
+}
+
+
+.container_cuatro {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #EAF2FD;
+    margin-bottom: 100px;
+}
+
+.formaciones {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+.box_formacion {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Sombrado más fuerte y amplio */
+    margin-top: 30px;
+
+
+}
+
+
+.box_formacion img {
+    height: 50px;
+}
+
+.titulo_experiencia {
+    text-align: center;
+}
+
+.encriptador {
+    /* background-color: #464646; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+.encriptador img {
+    height: 400px;
+}
+
+.encriptador_contenido a {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Espaciado interno para el botón */
+    background-color: #464646;
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color del texto */
+    text-decoration: none;
+    /* Quitar subrayado del enlace */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    border: 1px solid #464646;
+    /* Borde sólido */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transición suave */
+}
+
+.encriptador_contenido a:hover {
+    background-color: #6b6b6b;
+    /* Cambio de color de fondo al pasar el ratón */
+    color: #fff;
+    /* Cambio de color del texto al pasar el ratón */
+}
+
+
+.container_seis {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #EAF2FD;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 80vw;
+}
+
+
+
+.contacto,
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    /* Ancho máximo del formulario */
+    
+
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    /* Espacio inferior entre etiquetas */
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="submit"] {
+    width: 100%;
+    /* Ancho completo */
+    padding: 8px;
+    /* Espaciado interno */
+    margin-bottom: 10px;
+    /* Espacio inferior entre campos */
+    box-sizing: border-box;
+    /* Incluir el relleno en el ancho total */
+}
+
+.formulario input[type="submit"] {
+    background-color: #007bff;
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    border: none;
+    /* Quitar el borde del botón */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar el ratón sobre el botón */
+    transition: background-color 0.3s;
+    /* Transición suave del color de fondo */
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Cambio de color de fondo al pasar el ratón sobre el botón */
+}
+
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+    .contacto_media {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .enlaces_menu a:not(.contacto_media) {
+        display: none;
+    }
+
+    .contacto_media {
+        display: flex;
+        justify-content: end;
+    }
+
+    .container_uno {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+
+    .titulo p {
+        font-size: 22px;
+    }
+
+    .presentacion p {
+        font-size: 16px;
+    }
+
+    .img_perfil img {
+        height: 146px;
+        border-radius: 50%;
+        /* Aplicado directamente a la imagen */
+    }
+
+
+    .skills,
+    .hobbies {
+
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Crea tres columnas de tamaño igual */
+        gap: 20px;
+        /* Espacio entre las cajas */
+        margin-left: 10%;
+
+    }
+
+    .subtitulo {
+        margin-top: 10px;
+        text-align: center;
+        /* Alinea el texto al centro */
+    }
+
+    .encriptador {
+        /* background-color: #464646; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        width: 80vw;
+        margin: 0 auto;
+
+    }
+
+    .encriptador img {
+        height: 60vw;
+    }
+
+
+
+}
+
+
+
+@media (max-width:414px) {
+
+    .enlaces_menu a:not(.contacto_media) {
+        display: none;
+    }
+
+    .contacto_media {
+        display: flex;
+        justify-content: end;
+        font-size: small;
+    }
+
+    .container_uno {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+
+    }
+
+    .titulo p {
+        max-width: 90vw;
+        /* Los párrafos ocuparán siempre el ancho máximo disponible */
+    }
+
+    .descripcion p {
+        max-width: 90vw;
+        /* Los párrafos ocuparán siempre el ancho máximo disponible */
+    }
+
+    .img_perfil img {
+        height: 98px;
+        border-radius: 50%;
+        /* Aplicado directamente a la imagen */
+    }
+
+    .enlaces_info a {
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        justify-content: flex-start;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+
+    .skills,
+    .hobbies {
+
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Crea tres columnas de tamaño igual */
+        gap: 20px;
+        /* Espacio entre las cajas */
+        margin-left: 10%;
+
+    }
+
+    .formaciones {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .encriptador img {
+        height: 60vw;
+    }
+
+    .container_seis {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Ancho completo en pantallas de menos de 414px */
+    }
+
+}
